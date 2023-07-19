@@ -197,18 +197,21 @@ a {
     fill: #ffffff;
 } */
 
+.bpw-floating-button i {
+    display: none;
+    /* Hide the default chat icon */
+}
+
 .bpw-floating-button {
-    background: none;
+    background-color: transparent;
     border-radius: 52px;
     box-shadow: none;
     padding: 0;
     width: auto;
     height: auto;
-}
-
-.bpw-floating-button i svg path {
-    fill: transparent;
     background-image: url('https://i.ibb.co/YWw3SmF/Gmail-account.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* .bpw-floating-button {
