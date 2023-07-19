@@ -197,6 +197,15 @@ a {
     fill: #ffffff;
 } */
 
+.bpw-floating-button {
+    background: none;
+    border-radius: 52px;
+    box-shadow: none;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+
 .bpw-floating-button i svg path {
     fill: transparent;
     background-image: url('https://i.ibb.co/YWw3SmF/Gmail-account.png');
