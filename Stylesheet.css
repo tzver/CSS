@@ -239,3 +239,9 @@ a {
 .bpw-send-button:not(:disabled):hover {
     background-color: var(--theme-primary-hover);
 }
+
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
