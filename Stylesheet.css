@@ -193,41 +193,19 @@ a {
     transition: width 1s, height 1s;
 }
 
-.bpw-floating-button {
-    background-image: url(https://i.ibb.co/YWw3SmF/Gmail-account.png);
-}
-
-.bpw-floating-button .bpw-floating-button-unread {
-    /* Displays the notification badge */
-    display: block;
-    /* Positions the badge to the top right of the button */
-    position: absolute;
-    right: 2px;
-    bottom: 54px;
-    /* Sets the width and height of the badge */
-    width: 20px;
-    height: 20px;
-    /* Rounds the corners of the badge to make it circular */
-    border-radius: 50%;
-    /* Centers the text inside the badge */
-    line-height: 20px;
-
-    /* Sets the color of the text inside the badge */
-    color: #fff;
-    /* Sets the background color of the badge */
-    background-color: #ff5d5d;
-    /* Adds a shadow effect to the badge */
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
-}
-
 /* .bpw-floating-button i svg path {
-      fill: #ffffff;
-  }
-  
-  .bpw-floating-button {
-      background: black;
-      border-radius: 52px;
-  } */
+    fill: #ffffff;
+} */
+
+.bpw-floating-button i svg path {
+    fill: transparent;
+    background-image: url('https://i.ibb.co/YWw3SmF/Gmail-account.png');
+}
+
+.bpw-floating-button {
+    background: black;
+    border-radius: 52px;
+}
 
 
 .bpw-chat-container {
