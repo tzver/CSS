@@ -159,6 +159,21 @@ a {
     background-image: url("https://i.ibb.co/YWw3SmF/Gmail-account.png");
 }
 
+.bpw-floating-button i {
+    /* Adds a transition effect to the icon when its opacity changes */
+    transition: opacity 0.3s ease;
+    /* Sets the opacity of the icon to fully visible */
+    opacity: 1;
+    /* Inherit the fill and stroke color from the parent button element */
+    fill: inherit;
+    stroke: inherit;
+    /* Sets the width of the icon to 100% of the parent button element */
+    width: 100%;
+    /* Removes padding and sets line-height to 0 to center the icon */
+    padding: 0;
+    line-height: 0;
+}
+
 /* .bpw-floating-button i svg path {
       fill: #ffffff;
   }
