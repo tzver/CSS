@@ -3,7 +3,7 @@ html {
 }
 
 .generated {
-    color: #B100FF;
+    color: #ffffff;
 }
 
 #input-message {
@@ -11,7 +11,7 @@ html {
 }
 
 .bpw-new-messages-indicator {
-    background-color: #B100FF;
+    background-color: #c133ff;
     color: #ffffff;
 }
 
@@ -28,7 +28,7 @@ html {
 }
 
 .bpw-chat-bubble-content {
-    background-color: #B100FF;
+    background-color: #c133ff;
     border-radius: 3px;
     border: 1px transparent;
 }
@@ -47,10 +47,10 @@ html {
 .bpw-layout {
     width: 360px !important;
     border: 1px;
-    height: 90vh;
+    height: 95vh;
     border-radius: 10px;
-    right: 10%;
-    bottom: 5%;
+    right: 8%;
+    bottom: 4%;
 }
 
 @media screen and (max-device-width: 767px) {
@@ -78,13 +78,13 @@ html {
 }
 
 .bpw-keyboard-single-choice {
-    background-color: #ffffff;
+    background-color: #2a2a2a;
     border: none;
 }
 
 .bpw-button,
 .bpw-button-alt {
-    background-color: #8e00cc;
+    background-color: #b200ff;
     color: #ffffff;
 }
 
@@ -95,7 +95,7 @@ html {
 
 .bpw-button:hover,
 .bpw-button-alt:hover {
-    background-color: #B100FF;
+    background-color: #c133ff;
     color: #ffffff;
 }
 
@@ -106,31 +106,31 @@ a {
 
 
 .bpw-chat-container {
-    background-color: #ffffff;
+    background-color: #2a2a2a;
 }
 
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-    background-color: #B100FF;
+    background-color: #c133ff;
     color: #ffffff;
 }
 
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-    background-color: #2a2a2a;
+    background-color: #8c8888;
     color: #ffffff;
 }
 
 .bpw-composer {
-    background-color: #ffffff;
-    border-top: 1px solid #B100FF;
+    background-color: #2a2a2a;
+    border-top: 1px solid #c133ff;
 }
 
 .bpw-chat-container::-webkit-scrollbar {
     width: 10px;
-    background-color: #ffffff;
+    background-color: #2a2a2a;
 }
 
 .bpw-chat-container::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
+    background-color: #2a2a2a;
 }
 
 .bpw-bot-avatar img,
@@ -149,25 +149,29 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
+    background-color: #2a2a2a;
     border-radius: 1rem;
     border: 0.5rem solid transparent;
 
 }
 
-.bpw-floating-button i svg path {
-    fill: #B100FF;
+.bpw-floating-button {
+    background-image: url("https://i.ibb.co/YWw3SmF/Gmail-account.png");
 }
 
-.bpw-floating-button {
-    background: black;
-    border-radius: 52px;
-}
+/* .bpw-floating-button i svg path {
+      fill: #ffffff;
+  }
+  
+  .bpw-floating-button {
+      background: black;
+      border-radius: 52px;
+  } */
 
 
 .bpw-chat-container {
     scrollbar-width: thin;
-    scrollbar-color: #B100FF #ffffff;
+    scrollbar-color: #c133ff #2a2a2a;
     border: none;
 }
 
@@ -182,7 +186,7 @@ a {
 }
 
 .bpw-chat-container::-moz-scrollbar-thumb {
-    background-color: #ffffff;
+    background-color: #2a2a2a;
     border: none;
 }
 
@@ -190,7 +194,7 @@ a {
     text-align: center;
     padding: 10px;
     color: #ffffff;
-    background: #ffffff;
+    background: #2a2a2a;
     font-size: 16px;
     border-top: none;
     border-bottom-right-radius: 10px;
